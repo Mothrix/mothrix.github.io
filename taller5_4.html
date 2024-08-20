@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina web grupal</title>
+    <link href="taller5.4.css" rel="stylesheet" type="text/css">
+    <script src="taller5_4.js"></script>
+</head>
+<body>
+    <h1>REPASO SEMANA 1 A 4</h1>
+    <div class="inline-container">
+        <img src="JaP.png" alt="JaP">
+        <ul class="enlaces">
+            <li><a href="#Semana1">Semana 1</a></li>
+            <li><a href="#Semana2">Semana 2</a></li>
+            <li><a href="#Semana3">Semana 3</a></li>
+            <li><a href="#Semana4">Semana 4</a></li>
+        </ul>
+    </div>
+    
+    <h2 id ="Semana1">Semana 1: Introducción al Desarrollo Web</h2>
+<p>Una página web es un documento de texto con marcas.
+   Las marcas permiten modificar la presentación del documento, 
+   incluir elementos no contenidos en el texto (por ejemplo, imágenes),
+  crear hiperenlaces, añadir significado al texto (todavía de forma limitada), etc.
+   A las marcas se les llaman también etiquetas. 
+Las páginas web están pensadas para ser vistas mediante los programas llamados navegadores web.</p>
+   
+<h2 id ="Semana2">Semana 2: Introducción al HTML</h2>
+    <h3>HTML(Lenguaje de marcado para Hipertextos)</h3>
+    <p>Elemento de construcion basico de una pagina web. 
+        HTML usa markup para anotar textos,imagenes  y otros contendidos que se muestran en el navegador. 
+        Los navegadores son capaces de interpretar las marcas y presentar el documento tal y como lo diseñó el autor.
+    </p> 
+    
+    <h2 id ="Semana3">Semana 3: Introducción al CSS</h2>
+    <p>En inglés CSS significa Cascading Style Sheets, es decir, Hojas de Estilo en Cascada, 
+        es un lenguaje de diseño gráfico para definir y crear la presentación de un documento 
+        estructurado escrito en un lenguaje de marcado</p>
+    <p> En las hojas de estilo CSS, los selectores son la parte de las reglas que indican al navegador 
+        a qué elementos se van a aplicar las propiedades</p>
+        <ul>
+            <li> Selector de tipo: E</li>
+            <li>Selector universal: *</li>
+            <li>Selector de clase: E.e</li>
+            <li>Selector de identificador (id): E#e</li>
+            <li>Selector de descendientes: E F</li>
+            <li>Selector de hijos: E > F</li>
+            <li>Selector de consecutivos: E + F</li>
+            <li>Selector de grupo: E, F</li>
+        </ul>
+    
+
+    <h2 id ="Semana4">Semana 4: Introducción al JavaScript (DOM, HTTP Y Fetch)</h2>
+    <h3>Introducción al JavaScript</h3>
+    <p><strong>Cómo incluir JavaScript: </strong> La etiqueta &lt;script&gt;
+    contiene código JavaScript que es automáticamente ejecutado por el 
+    navegador una vez que procesa la etiqueta.</p>
+    <p><strong>Script Externo: </strong> Los scripts pueden estar en archivos separados. 
+    Se vinculan al HTML con el atributo src en la etiqueta &lt;script&gt;. </p>
+    <p>Ejemplos: <br>
+        Ruta absoluta: &lt;script src="/ruta/al/script.js"&gt; &lt;/script&gt; <br>
+        Ruta relativa: &lt;script src="script.js"&gt; &lt;/script&gt; <br>
+        Archivo en la web: &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.2.0/lodash.js"&gt;
+    &lt;/script&gt;</p>
+    <h3>Introducción a DOM (Document Object Model)</h3>
+    <p>La creación del Document Object Model o DOM es una de las innovaciones 
+        que más ha influido en el desarrollo de las páginas web dinámicas y de 
+        las aplicaciones web más complejas.</p>
+    <p>DOM permite a los programadores web acceder y manipular los elementos 
+     de las páginas HTML a través de objetos llamados nodos.</p>
+    <p>DOM transforma todos los documentos HTML en un conjunto de elementos
+        llamados nodos, que están interconectados y que representan los contenidos 
+        de las páginas web y las relaciones entre ellos.</p>
+        <p>Los navegadores web transforman automáticamente todas las páginas web en 
+            una estructura más eficiente de manipular, el DOM. </p>
+    <h3>HTTP (Protocolo de transferencia de hipertexto)</h3>
+    <p>HTTP (opens in a new tab)(HyperText Transfer Protocol) está diseñado para permitir 
+        una comunicación entre clientes y servidores.</p>
+    <p>HTTP funciona como un protocolo de pedido-respuesta entre el cliente y servidor.
+        Un navegador web puede ser el cliente, y la aplicación en una computadora que aloja 
+        un sitio web puede ser el servidor.</p>
+        <h4>Métodos HTTP</h4>
+        <ul>
+            <li><strong>Método GET: </strong>GET es el método HTTP por defecto. Su función es 
+                solicitar un recurso específico, por lo tanto las peticiones que utilizan este 
+                método solo deben utilizarse para obtener información. Notar que los parámetros de 
+                consulta que envía, se encuentran en la URL misma, en forma de pares clave-valor El 
+                método GET tiene algunos 
+                problemas de seguridad porque los datos insertados son visibles en la URL. Además, 
+                solo una cantidad restringida de datos puede ser pasada a través del método GET, ya 
+                que la longitud de la URL que un navegador puede atravesar es limitada.</li>
+            <li><strong>Método POST: </strong>El método POST se utiliza para enviar una entidad a un 
+                recurso en específico al servidor, causando a menudo un cambio en el estado o efectos 
+                secundarios del mismo. Generalmente es utilizado para enviar al servidor información 
+                que queremos que el mismo "registre".</li>
+        </ul>
+        <h3>Fetch (comunicación con el servidor)</h3>
+        <p>JavaScript puede realizar solicitudes a servidores para obtener o enviar información sin 
+            necesidad de recargar la página web.</p>
+    <p><strong>Fetch API: </strong>Introducción a la función `fetch()`, que se utiliza para realizar peticiones HTTP desde 
+        JavaScript. Permite especificar la URL y opciones como método HTTP, encabezados, etc.</p>
+        <p><strong>Respuestas de Fetch: </strong>
+            El objeto `Response` devuelto por `fetch()` proporciona métodos para acceder al contenido 
+            de la respuesta, como `response.text()` para obtener el texto de la respuesta y `response.json()` 
+            para interpretar la respuesta como JSON.</p>
+            <br>
+            <br>
+
+            <button>
+                <a href="portafolio_web.html">Volver a página de Inicio</a>
+               </button>
+</body>
+</html>

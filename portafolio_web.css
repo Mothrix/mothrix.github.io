@@ -1,0 +1,48 @@
+body{
+    
+    background-image: url(fondonegrodiseño.jpeg);
+    color: #c90079;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 18px;
+    line-height: 1;
+    margin: 10;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 10vh;
+    text-align: center;
+}
+/* Marquesina de bienvenida*/
+
+#marqueeBienvenida {
+color:rgb(197, 173, 218);
+background-color: #c90079;
+font-size: 15px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+padding: 10;
+
+}
+p {
+    padding: 0.02px;
+    margin:0vi;
+}
+
+button {
+    padding: 20px;
+    font-style: courier;
+    background-color: black;
+    line-height: 1.5;
+    justify-content: center;
+}
+img {
+    border-radius: 30px;
+    width: 20%;
+}
+
+.inline-container {
+    text-align: center;
+    display: flex;
+    margin: center;
+}

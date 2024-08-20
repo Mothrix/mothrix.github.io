@@ -1,0 +1,55 @@
+h1 {
+    font-family: helvetica;
+    line-height: 300%;
+    font-size: xx-large;
+    font-weight: 900;
+    background-color: black;
+    color: white; 
+    text-shadow: rgb(106, 100, 180) 0.1em 0.1em 0.2em;
+    text-align: center;
+    background-position: center;
+
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 250%;
+    font-size: x-large;
+    font-weight: 800;
+    background-color: black;
+    color: white; 
+    text-shadow: rgb(106, 100, 180) 0.1em 0.1em 0.2em;
+    text-align: center;
+    background-position: center;
+}
+h3 {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
+
+body {
+    background-image: url('https://static.vecteezy.com/system/resources/previews/014/551/259/non_2x/digital-circuit-technology-hi-tech-communication-concept-futuristic-digital-innovation-background-illustration-vector.jpg');
+    background-size: 100% 100%; /* Ajusta la imagen para cubrir todo el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: fixed; /* Centra la imagen en la pantalla */
+    color: white;
+}
+p {
+    color: white;
+    font-family: arial;
+    font-size: medium;
+}
+a{
+    color: white;
+}
+
+.inline-container {
+    text-align: center;
+    display: flex;
+    margin-left: 250px;
+}
+.inline-container img {
+    margin-right: 10px; /* Espacio entre la imagen y el texto */
+    text-align: center;
+    }
